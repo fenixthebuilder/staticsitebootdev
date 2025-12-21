@@ -2,8 +2,6 @@ from bs4 import BeautifulSoup as scraper
 
 html = ''
 
-#soup = scraper(html, 'html.parser')
-
 
 def get_h1_from_html(html):
 	soup = scraper(html, 'html.parser')
